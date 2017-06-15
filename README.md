@@ -23,6 +23,6 @@ Configure Raspberry Pi to Raspbian
 
 Set-up wireless if not running through ethernet
 
-In terminal run : sudo apt-get install x11-xserver-utils xinit icedtea-7-plugin numlockx xprintidle -y
+In terminal run : sudo apt-get install x11-xserver-utils xinit icedtea-7-plugin numlockx xprintidle chromium -y
 
   -This gives you all required programs needed
