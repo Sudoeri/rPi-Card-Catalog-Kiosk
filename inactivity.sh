@@ -1,6 +1,6 @@
 #Create inactivity.sh first in the terminal with : sudo nano /home/pi/inactivity.sh and then insert the following
 
-#!bin/bash
+#!/bin/bash
 
 #Time out in milliseconds - The initial intiger in parenthesis, in this case 3, is how many minutes before inactivity
 IDLE_TIME=$((3*60*1000))
@@ -15,7 +15,7 @@ trigger_cmd() {
  
  #ceil() instead of floor()
  while sleep $(((sleep_time+999)/1000)); do
-  idle=$((DISPLAY=:0 xprintidle)
+  idle=$(DISPLAY=:0 xprintidle)
    if [ $idle -ge $IDLE_TIME ]; tjem
     if ! $triggered; then
     trigger_cmd
