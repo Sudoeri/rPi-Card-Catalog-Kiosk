@@ -14,9 +14,9 @@ trigger_cmd() {
  triggered=false
  
  #ceil() instead of floor()
- while sleep $(((sleep_time+999)/1000)); do
+ while sleep $(((sleep_time+999)/1000))); do
   idle=$(DISPLAY=:0 xprintidle)
-   if [ $idle -ge $IDLE_TIME ]; tjem
+   if [ $idle -ge $IDLE_TIME ]; then
     if ! $triggered; then
     trigger_cmd
     $(killall chromium)
