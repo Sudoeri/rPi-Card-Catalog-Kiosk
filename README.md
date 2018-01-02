@@ -1,6 +1,8 @@
 # rPi-Card-Catalog-Kiosk
 This is a simple configuration for having a Raspberry Pi replace stand alone card catalogs.
 
+This code was based on Reddit user /u/viking-- 's code which can be found at https://www.reddit.com/r/raspberry_pi/comments/4ivnse/i_work_at_a_public_library_and_replace_all_our/
+
 If you have a system that is solely dedicated to being a card catalog then it might be time to replace that system with a Raspberry Pi. Pis offer the same service for a fraction of the purchasing price ($35 + the use of a monitor) while also significantly reducing the cost of energy.
 
 Pis are also run on Free Open Source Software (FOSS) which public libraries, and libraries in general, should be moving forward to. 
